@@ -21,6 +21,8 @@ export async function fetchRevenue() {
 
     // console.log('Data fetch completed after 3 seconds.');
 
+    // return data.rows;
+    return invoice[0];
     return data.rows;
   } catch (error) {
     console.error('Database Error:', error);
